@@ -13,7 +13,7 @@ public class HelloController {
 	@RequestMapping("/")
 	public String index() {
         System.out.println("Returning message...");
-        return "Greetings from ODed!";
+        return "Greetings from Israel!";
 	}
 
     @Bean
