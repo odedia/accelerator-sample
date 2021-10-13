@@ -14,7 +14,7 @@ public class HelloController {
 	public String index() {
           Integer i = 5;
           System.out.println("Returning message... i=" + i);
-          return "Greetings from Oded!";
+          return "Greetings from Tanzu!";
 	}
 
     @Bean
