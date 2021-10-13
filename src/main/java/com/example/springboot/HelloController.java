@@ -12,8 +12,9 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-        System.out.println("Returning message...");
-        return "Greetings from Oded!";
+          Integer i = 5;
+          System.out.println("Returning message... i=" + i);
+          return "Greetings from Terasky!";
 	}
 
     @Bean
