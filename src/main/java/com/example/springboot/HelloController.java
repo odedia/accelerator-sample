@@ -12,14 +12,13 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-          Integer i = 5;
+          String message = "Tanzu"";
           System.out.println("Returning message... i=" + i);
-          return "Greetings from Everyone!";
+          return "Greetings from " + message + "!";
 	}
 
     @Bean
     public HttpTraceRepository htttpTraceRepository() {
             return new InMemoryHttpTraceRepository();
     }
-
 }

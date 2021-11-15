@@ -16,4 +16,4 @@ custom_build('harbor.apps.cf.tanzutime.com/apps/tanzu-java-web-app',
 )
 
 tanzu_k8s_yaml('tanzu-java-web-app', 'harbor.apps.cf.tanzutime.com/apps/tanzu-java-web-app', './config/workload.yaml')
-allow_k8s_contexts('workload')
+allow_k8s_contexts('tap-cluster')
